@@ -1,0 +1,51 @@
+/*
+ * File: layout.css
+ * Author: Bùi Đào Việt Anh
+ * Student ID: 105714199
+ * Description: Lab 05 - Applying CSS rules for Web page layout.
+ * Date: 16 October 2026
+ */
+
+/* Override the hover rule in the earlier typography stylesheet. */
+aside:hover { display: block; }
+.menu { display: inline-block; }
+nav ul { list-style: none; }
+
+aside {
+    border: 4px inset purple;
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    background: white url("images/fade.jpg") repeat-x top left;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+footer {
+    border-top: 4px double #006666;
+    clear: both;
+}
+article { min-width: 30em; }
+#lists { float: left; }
+table { margin: auto; }
+#tables { float: right; }
+#hyperlinks { clear: both; float: left; }
+#images { float: right; }
+figure { border: 2px solid #ccc; }
+#lists, #tables, #hyperlinks, #images {
+    width: 50%;
+    text-align: center;
+}
+ol, ul, dl { text-align: left; }
+footer p { display: inline-block; width: 33%; }
+footer p:first-child { float: left; }
+footer p:nth-child(2) { text-align: center; }
+footer p:last-child { float: right; text-align: right; }
+
