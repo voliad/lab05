@@ -1,12 +1,3 @@
-/*
- * File: layout.css
- * Author: Bùi Đào Việt Anh
- * Student ID: 105714199
- * Description: Lab 05 - Applying CSS rules for Web page layout.
- * Date: 16 October 2026
- */
-
-/* Override the hover rule in the earlier typography stylesheet. */
 aside:hover { display: block; }
 .menu { display: inline-block; }
 nav ul { list-style: none; }
