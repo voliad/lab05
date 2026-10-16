@@ -1,19 +1,9 @@
-/*
-filename: lab04.css
-author: Bùi Đào Việt Anh
-student ID: 105714199
-created: 2026-10-09
-last modified: 2026-10-09
-description: Styles for lab04.html
-*/
-
-/* Universal selector */
 * {
     font-family: Calibri, sans-serif;
     color: #2F4F4F;
 }
 
-/* Element selectors */
+
 h1 {
     color: purple;
     font-size: 2em;
@@ -26,7 +16,7 @@ h2 {
     font-size: 1.5em;
 }
 
-/* Group selectors */
+
 aside, footer {
     font-style: italic;
 }
@@ -39,7 +29,7 @@ table, th, td {
     border: 1px solid black;
 }
 
-/* ID selectors */
+
 #images {
     text-align: center;
 }
@@ -48,7 +38,7 @@ table, th, td {
     color: red;
 }
 
-/* Class selectors */
+
 .special {
     color: darkorange;
     font-weight: bold;
@@ -58,7 +48,7 @@ table, th, td {
     text-align: right;
 }
 
-/* Contextual selectors */
+
 nav a {
     text-decoration: none;
     padding: 0.2em 0.6em;
@@ -69,7 +59,7 @@ ol ul {
     list-style-type: square;
 }
 
-/* Pseudo-class selectors */
+
 aside:hover {
     display: none;
 }
